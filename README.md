@@ -18,6 +18,7 @@ sequenceDiagram
     participant Р as Учитель Рейми
     participant П as Потребитель
     activate П
+    par
         П->>МР: Запрос на крысу с особоыми характеристиками 
     end
     activate МР
@@ -29,7 +30,10 @@ sequenceDiagram
         ПК->>Р: Производит крыс и передает их
     end
     activate Р
-        
+    par 
+        Р->>К:Обучние по заданным характеристикам
+    end
+    
     
     
 ```
