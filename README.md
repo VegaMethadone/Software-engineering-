@@ -18,11 +18,11 @@ sequenceDiagram
     participant Р as Учитель Рейми
     participant П as Потребитель
     activate П
-    par П к МР
+    par
         П->>МР: Запрос на крысу с особоыми характеристиками 
     end
     activate МР
-    par МР к ПК
+    par
         МР->>ПК:Передает информацию о заказе
     end
     
