@@ -18,7 +18,7 @@ sequenceDiagram
     participant Р as Учитель Рейми
     participant П as Потребитель
     activate П
-    par П to МР
+    par П к МР
         П->>МР: Запрос на крысу с особоыми характеристиками 
     end
     
