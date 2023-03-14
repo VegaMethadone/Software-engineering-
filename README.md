@@ -21,6 +21,7 @@ sequenceDiagram
     par
         П->>МР: Запрос на крысу с особоыми характеристиками 
     end
+    note right of П: хуй
     activate МР
     par
         МР->>ПК:Передает информацию о заказе
@@ -39,7 +40,6 @@ sequenceDiagram
     end
     par
         К->>П: Добирается по водосточной трубе к потребителю
-        note right of П: хуй
     end
     
     
