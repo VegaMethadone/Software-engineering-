@@ -17,7 +17,6 @@ sequenceDiagram
     participant К as Крыса
     participant Р as Учитель Рейми
     participant П as Потребитель
-    activate П
         П->>МР: Запрос на крысу с особоыми характеристиками 
         МР->>ПК: Передает информацию о заказе
     end
