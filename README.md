@@ -39,6 +39,7 @@ sequenceDiagram
     end
     par
         К->>П: Добирается по водосточной трубе к потребителю
+        note right of П: хуй
     end
     
     
