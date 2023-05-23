@@ -2,7 +2,7 @@
 
 ## Акторы:
 
-1. Менежер Рейми *(МР)*
+1. Менежер Эмиль *(МР)*
 2. Папа Крыса *(ПК)*
 3. Крыса *(К)*
 4. Учитель Рейми *(Р)*
@@ -12,7 +12,7 @@
 
 ```mermaid
 sequenceDiagram
-    participant МР as Менежер Рейми
+    participant МР as Менежер Эмиль
     participant ПК as Папа Крыса
     participant К as Крыса
     participant Р as Учитель Рейми
