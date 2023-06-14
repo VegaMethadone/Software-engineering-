@@ -1,0 +1,71 @@
+POST http://127.0.0.1:8080/registrationPerson
+Content-Type: application/json
+
+{
+  "firstName": "Artem",
+  "lastName": "Marchenko",
+  "phone": "79657775481",
+  "email": "KekLol@gmail.com",
+  "password": "777888"
+}
+###
+POST http://127.0.0.1:8080/registrationPerson
+Content-Type: application/json
+
+{
+  "firstName": "nekit",
+  "lastName": "Zubarev",
+  "phone": "782141242241",
+  "email": "Android@gmail.com",
+  "password": "123333"
+}
+
+###
+POST http://127.0.0.1:8080/login
+Content-Type: application/json
+
+{
+  "mail": "Android@gmail.com",
+  "password": "123333"
+}
+
+###
+POST http://127.0.0.1:8080/login
+Content-Type: application/json
+
+{
+"mail": "KekLol@gmail.com",
+"password": "123333"
+}
+
+###
+POST http://127.0.0.1:8080/login
+Content-Type: application/json
+
+{
+  "mail": "flaSH@GMAIL.COM",
+  "password": "1111"
+}
+
+
+
+
+
+
+###
+GET http://127.0.0.1:8080/customer
+Accept: application/json
+
+###
+GET http://127.0.0.1:8080/customer/200
+Accept: application/json
+
+###
+GET http://127.0.0.1:8080/customer/500
+Accept: application/json
+
+###
+DELETE http://127.0.0.1:8080/customer/100
+
+###
+DELETE http://127.0.0.1:8080/customer/500
